@@ -1,0 +1,64 @@
+@font-face {
+    font-family: vazir;
+    src: url("font/A Mitra/A Mitra 05.ttf");
+}
+body {
+    direction: rtl;
+    background-color: #69adf9;
+    font-family: vazir !important;
+}
+
+.header{
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+h1{
+    margin: 0 1rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: solid 1px gray;
+    width: 350px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form-control.error input{
+    border-color: red;
+}
+.form-control.succsecc input{
+    border-color: greenyellow;
+}
+.form-control small{
+    color: red;
+    bootom:0;
+    right: 0;
+}
+.card-body{
+    padding: 1rem 2rem;
+}
+input{
+    width: 17rem;
+    height: 28px;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: solid 0.5px gray;
+}
+
+button{
+    height: 35px;
+    width: 10rem;
+    margin-right: 3.7rem;
+    border-radius: 10px;
+    border: none;
+
+}
