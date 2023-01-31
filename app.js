@@ -30,30 +30,30 @@ const checkInput = () => {
     // set error 2 ta value dare
     // avali input username hast
     // va dovomi peygami ke mikhaym bedim
-    setError(username, 'نام کاربری را وارد کنید')
+    setError(username, 'Please enter a username')
 
   } else {
     setSuccsecc(username)
   }
   if (emailValue === '') {
 
-    setError(email, 'ایمیل را وارد کنید')
+    setError(email, 'Please enter a email')
   } else {
     setSuccsecc(email)
   }
 
   if (passwordValue === '') {
 
-    setError(password, 'پسورد را وارد کنید')
+    setError(password, 'Please enter a password')
   } else {
     setSuccsecc(password)
   }
   if (password2Value === '') {
-    setError(password2, ' تکرار پسورد را وارد کنید')
+    setError(password2, 'Enter the correct password')
   }
   // hala bayad chek konim password 1 va 2 yeki bashad
   else if (passwordValue !== password2Value) {
-    setError(password2, "رمز عبور اشتباه وارد شده")
+    setError(password2, "Passwords does not match")
   } else {
     setSuccsecc(password2)
   }
@@ -78,3 +78,19 @@ const setSuccsecc = (input) => {
   const formControl = input.parentElement
   formControl.className = "form-control succsecc"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

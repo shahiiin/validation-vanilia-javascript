@@ -1,19 +1,21 @@
 @font-face {
-    font-family: vazir;
-    src: url("font/A Mitra/A Mitra 05.ttf");
-}
-body {
-    direction: rtl;
-    background-color: #69adf9;
-    font-family: vazir !important;
+    font-family: roboto;
+    src: url("./font/RobotoCondensed-BoldItalic.ttf");
 }
 
-.header{
+body {
+
+    background-color: #69adf9;
+    font-family: roboto !important;
+}
+
+.header {
     background-color: lightgray;
     padding: 15px;
     margin-bottom: 1rem;
 }
-h1{
+
+h1 {
     margin: 0 1rem;
 }
 
@@ -30,35 +32,75 @@ h1{
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
 }
-.form-control.error input{
+
+.form-control.error input {
     border-color: red;
 }
-.form-control.succsecc input{
+
+.form-control.succsecc input {
     border-color: greenyellow;
 }
-.form-control small{
+
+.form-control small {
     color: red;
-    bootom:0;
+    bottom: 0;
     right: 0;
 }
-.card-body{
+
+.card-body {
     padding: 1rem 2rem;
 }
-input{
+
+input {
     width: 17rem;
     height: 28px;
     margin-top: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: solid 0.5px gray;
 }
 
-button{
+.login {
     height: 35px;
-    width: 10rem;
-    margin-right: 3.7rem;
+    width: 125px;
     border-radius: 10px;
     border: none;
+    background-color: #19b7f5;
+    color: #fff;
+}
 
+.signup {
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00ff16;
+}
+
+.signup-btm {
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: #707470 !important;
+}
+
+label {
+    color: #707470 !important;
 }
